@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+*.png
+*.log
+
+# paper/ 中的插图需要随 LaTeX 源码一并提交（否则无法独立编译）
+!paper/*.png
